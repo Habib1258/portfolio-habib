@@ -37,7 +37,7 @@ const ProjectPage = () => {
         <img
           src={project.imageUrl}
           alt={project.title}
-          className="rounded-xl shadow-lg shadow-white/40 mb-8 object-fit w-auto h-auto max-h-[500px]"
+          className="rounded-xl bg-white shadow-lg shadow-white/40 mb-8 object-fit w-auto h-auto max-h-[500px]"
         />
         <h3 className="text-3xl leading-relaxed mb-6">{project.description}</h3>
         <p className="text-lg text-gray-200 mb-6">Outils : {project.tools}</p>
