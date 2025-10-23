@@ -24,7 +24,8 @@ const Graphic = () => {
                   <img
                     src={project.imageUrl}
                     alt={project.title}
-                    className="h-[100px] min-h-[100px] lg:h-[300px] w-auto object-cover"
+                    className="w-full h-[100px] min-h-[100px] lg:h-[300px] object-cover"
+                    loading="lazy"
                   />
                   <div className="p-4 flex-1 flex flex-col">
                     <h3 className="text-lg font-bold">{project.title}</h3>
