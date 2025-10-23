@@ -22,7 +22,7 @@ const DownloadCV = () => {
     <div className="relative">
       <button
         onClick={() => setIsOpen(true)}
-        className="py-2 ml-8 lg:ml-24 rounded-xl hover:text-lime-400 text-xl lg:text-2xl text-gray-50 transition-all duration-300 font-bebas"
+        className="py-2 ml-8 lg:ml-24 rounded-xl hover:text-lime-400 text-lg lg:text-4xl text-gray-50 transition-all duration-300 font-bebas"
       >
         download CV
         <MdDownload className="inline ml-2" />
