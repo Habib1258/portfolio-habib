@@ -2,6 +2,7 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import { projectsData } from "../data/projectsData";
+import { IoMdArrowBack } from "react-icons/io";
 
 const ProjectPage = () => {
   const { id } = useParams();
@@ -23,7 +24,12 @@ const ProjectPage = () => {
 
   return (
     <section className="min-h-screen bg-custom-dark text-slate-300 font-bebas px-6 lg:px-24 py-20 flex flex-col items-center">
+      
       <div className="w-full max-w-5xl">
+        <Link to="/Portfolio" className='flex mb-5 pb-3'>
+          <IoMdArrowBack className='mr-2 text-xl lg:text-3xl text-lime-400' />
+          <h1 className='text-lime-400 text-xl lg:text-3xl underline underline-offset-4'>Other projects</h1>
+        </Link>
         <h1 className="text-5xl font-bold mb-6">{project.title}</h1>
         <p className="text-gray-400 mb-8">
           {project.category} · {project.date}
@@ -31,7 +37,7 @@ const ProjectPage = () => {
         <img
           src={project.imageUrl}
           alt={project.title}
-          className="rounded-xl shadow-lg mb-8 object-fit w-auto h-auto max-h-[500px]"
+          className="rounded-xl shadow-lg shadow-white/40 mb-8 object-fit w-auto h-auto max-h-[500px]"
         />
         <h3 className="text-3xl leading-relaxed mb-6">{project.description}</h3>
         <p className="text-lg text-gray-200 mb-6">Outils : {project.tools}</p>
