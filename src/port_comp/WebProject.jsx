@@ -27,7 +27,7 @@ const WebProject = () => {
               <h1 className='float-left text-3xl lg:text-5xl font-bold'>Web Projects</h1>
               <div className='grid w-full'>     
                   <Project>
-                          <img src={ saidal} className='w-auto w-max-[600px] h-full max-h-[600px] lg:w-full lg:h-full rounded-t-xl mx-1 lg:rounded-l-2xl lg:rounded-r-none drop-shadow-2xl ' alt='Project 1' />
+                          <img src={ saidal} className='w-auto h-auto lg:w-auto lg:h-[600px] rounded-t-xl mx-1 lg:rounded-l-2xl lg:rounded-r-none drop-shadow-2xl ' alt='Project 1' />
                           <div className='pl-4 text-center'>
                             <h1 className='text-2xl lg:text-3xl pt-4 pb-4 text-primary underline underline-offset-8 '>SAIDAL Pharmaceutical Management System — Master’s Final Project</h1>
                             <p className='text-xl lg:text-2xl text-left pt-4 lg:pt-10'>
@@ -46,7 +46,7 @@ Developed a web-based HR module to manage part-time staff for SAIDAL Group. Desi
                           
                   </Project>
                   <Project>
-                    <img src={buybay} className='w-auto w-max-[600px] h-full max-h-[600px] lg:w-full lg:h-fullrounded-t-xl mx-1 lg:rounded-l-2xl lg:rounded-r-none drop-shadow-2xl' alt='Project 1' />
+                    <img src={buybay} className='w-auto h-auto lg:w-auto lg:h-[600px] rounded-t-xl mx-1 lg:rounded-l-2xl lg:rounded-r-none drop-shadow-2xl' alt='Project 1' />
                     <div className='pl-4 text-center'>
                       <h1 className='text-2xl lg:text-3xl pt-4 pb-4 text-primary underline underline-offset-8 '>Buybay WebSite</h1>
                       <p className='text-xl lg:text-2xl text-left pt-4 lg:pt-10'>Buybay is a consumer-to-consumer (C2C) e-commerce platform that enables individuals to buy and sell products directly with each other.</p>
@@ -64,7 +64,7 @@ Developed a web-based HR module to manage part-time staff for SAIDAL Group. Desi
                     
                   </Project>
                   <Project>
-                    <img src={odelice} className='w-auto w-max-[600px] h-full max-h-[600px] lg:w-full lg:h-full rounded-t-xl mx-1  lg:rounded-l-2xl lg:rounded-r-none drop-shadow-2xl' alt='Project 1' />
+                    <img src={odelice} className='w-auto h-auto lg:w-auto lg:h-[600px] rounded-t-xl mx-1  lg:rounded-l-2xl lg:rounded-r-none drop-shadow-2xl' alt='Project 1' />
                     <div className='pl-4 text-center'>
                       <h1 className='text-lg lg:text-3xl pt-4 pb-4 text-lime-400 underline underline-offset-8'>Odelice WebSite</h1>
                       <p className='text-xl lg:text-2xl text-left pt-4 lg:pt-10'>o'delice is a Pizzieria website that helps consumer to see or contact pizzeria admin through its website.</p>
@@ -82,7 +82,7 @@ Developed a web-based HR module to manage part-time staff for SAIDAL Group. Desi
                 </Project>
                 
                   <Project>
-                    <img src={car} className='w-auto w-max-[600px] h-full max-h-[600px] lg:w-full lg:h-full rounded-t-xl mx-1 lg:rounded-l-2xl lg:rounded-r-none drop-shadow-2xl' alt='Project 1' />
+                    <img src={car} className='w-auto h-auto lg:w-auto lg:h-[600px] rounded-t-xl mx-1 lg:rounded-l-2xl lg:rounded-r-none drop-shadow-2xl' alt='Project 1' />
                     <div className='pl-4 text-center'>
                       <h1 className='text-lg lg:text-3xl pt-4 pb-4 text-lime-400 underline underline-offset-8'>Car Location WebSite</h1>
                       <p className='text-xl lg:text-2xl text-left pt-4 lg:pt-5'>Car Rental website! This platform provides an easy and convenient way to rent a wide range of vehicles for your travel needs.</p>
