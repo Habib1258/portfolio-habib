@@ -1,6 +1,9 @@
 import React from 'react'
 import prof from '../assets/images/proc.png'
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import DownloadCV from "./DownloadCV";
+
+
 
 const Hero = () => {
   return (
@@ -19,6 +22,7 @@ const Hero = () => {
                             a web developer, and a Graphic designer.
                           </span>
                         </h3>
+                        <DownloadCV />
                       </div>
                   <img className="pl-20 lg:pt-10 h-auto w-auto lg:w-3/6 lg:h-2/3 lg:mr-16 lg:mt-5 lg:animate-moveX" src={ prof } alt="" />
           </div>   
