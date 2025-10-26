@@ -9,8 +9,8 @@ const DownloadCV = () => {
     const link = document.createElement("a");
     link.href =
       lang === "fr"
-        ? "/assets/cv/abdesselem-cv-fr.pdf"
-        : "/assets/cv/abdesselem-cv-en.pdf"; // add English version later
+        ? "/assets/pdf/cv/abdesselem-cv-fr.pdf"
+        : "/assets/pdf/cv/abdesselem-cv-en.pdf"; // add English version later
     link.download = lang === "fr" ? "abdesselem-cv-fr.pdf" : "abdesselem-cv-en.pdf";
     document.body.appendChild(link);
     link.click();
